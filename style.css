@@ -1,0 +1,138 @@
+/*page layout*/
+body{
+    margin: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+/*toolbar*/
+div.logo{
+    vertical-align: text-bottom;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    color: darkred;
+}
+
+ul.toolbar{
+    list-style-type: none;
+    margin-bottom: 40px;
+    padding: 0;
+    overflow: hidden;
+}
+.toolbar li{
+    float:left;
+}
+
+.active{
+    color: blue;
+    color: rgb(196, 136, 53);
+}
+li a:hover{
+    background: #f1f1f1;
+    background: lightgray;
+}
+
+li a{
+    display: block;
+    color: darkred;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*border-right: 1px solid cyan;*/
+}
+
+
+/*image*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Button*/
+#chokes{
+    width: auto;
+    height: 1.4em;
+    font-size: 1.4em;
+    font-family: "Arial";
+    text-align-vertical: center;
+}
+
+/*Footer*/
+footer{
+    border-top: 1px solid;
+    padding-top: 5px;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+/*Weather*
+img{
+    width: 100%;
+    height: auto;
+    image-orientation: from-image;
+}
+
+img.weather{
+    height: 80px;
+    width: auto;
+}
+
+/*Stack Overflow*
+
+
+img.profile{
+    width: 75%;
+    height: auto;
+}
+p.profile{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+p.info{
+    padding-top: 0px;
+}
+
+ul.tags{
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.tags{
+    display: block;
+    background: paleturquoise;
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+    padding: 1px 1px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    float: left;
+}
+
+h3{
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+.answer{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
